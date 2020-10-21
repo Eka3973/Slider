@@ -1,0 +1,5 @@
+const MODULE_NAME = 'COMMON'
+
+export const SET_INDEX_SLIDE  = `${MODULE_NAME}/SET_INDEX_SLIDE`
+
+

@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.button {
+  background: white;
+  border: 3px solid $light-gray;
+  border-radius: 6px;
+  color: $light-blue;
+  width: 8%;
+  height: auto;
+  outline: none;
+  margin: 2px;
+}
+
