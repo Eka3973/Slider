@@ -24,7 +24,7 @@ const config = {
     devtool: 'source-map',
     module: {
         rules: [
-            {test: /\.(js|jsx)$/, use: [{loader: 'babel-loader'}], exclude: [/node_modules/, /tests/]},
+            {test: /\.js$|jsx/, use: [{loader: 'babel-loader'}], exclude: [/node_modules/, /tests/]},
             {
                 test: /\.(scss|sass|css)$/,
                 use: [

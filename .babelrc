@@ -10,6 +10,6 @@
         "useBuiltIns": "usage"
       }
     ],
-    "@babel/react"
+    "@babel/preset-react"
   ]
 }
